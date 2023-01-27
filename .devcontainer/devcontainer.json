@@ -1,0 +1,17 @@
+{
+	"name": "tobias/default",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile",
+		"args": {
+			"DOCKER_WORKSPACE_PATH": "/workspace",
+			"DOCKER_UID": "1000",  // Just set a uid/gid, as vs code will override to user's actual uid/gid automatically
+            "DOCKER_GID": "1000"
+		}
+	},
+	"extensions": ["ms-python.python"],
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+	"workspaceFolder": "/workspace",
+    "remoteUser": "docker-user",
+	"mounts": ["source=tobias-default-home,target=/home/docker-user,type=volume"]
+}
