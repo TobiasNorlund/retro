@@ -1,0 +1,24 @@
+{
+    "num_embeddings": 32128,
+    "pad_token_idx": 0,
+    "chunk_size": 64,
+    "dropout_p": 0.1,
+
+    "enc_hidden_dim": 896,
+    "enc_num_layers": 2,
+    "enc_ffn_dim": 3584,
+    "enc_num_heads": 14,
+    "enc_qkv_dim": 896,
+    "enc_ca_layers": [1],
+    "enc_sa_pos_bias_num_buckets": 256,
+    "enc_ca_pos_bias_num_buckets": 192,
+
+    "dec_hidden_dim": 1536,
+    "dec_num_layers": 12,
+    "dec_ffn_dim": 6144,
+    "dec_num_heads": 12,
+    "dec_qkv_dim": 1536,
+    "dec_cca_layers": [5, 8, 11],
+    "dec_sa_pos_bias_num_buckets": 1024,
+    "dec_cca_pos_bias_num_buckets": 192
+}

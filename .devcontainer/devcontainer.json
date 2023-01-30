@@ -1,5 +1,5 @@
 {
-	"name": "tobias/default",
+	"name": "tobias/retro-analysis",
 	"build": {
 		"context": "..",
 		"dockerfile": "../Dockerfile",
@@ -13,5 +13,5 @@
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
 	"workspaceFolder": "/workspace",
     "remoteUser": "docker-user",
-	"mounts": ["source=tobias-default-home,target=/home/docker-user,type=volume"]
+	"mounts": ["source=tobias-retro-analysis-home,target=/home/docker-user,type=volume"]
 }

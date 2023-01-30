@@ -1,0 +1,278 @@
+{
+    "shards": [
+        {
+            "chunks": "chunk_shards/00_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/00_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/00_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/00_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/00_github.chunks.npy",
+            "seq2chunk": "chunk_shards/00_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/00_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/00_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/00_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/00_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/00_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/00_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/00_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/00_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/00_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/00_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/00_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/00_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/00_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/00_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/01_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/01_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/01_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/01_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/01_github.chunks.npy",
+            "seq2chunk": "chunk_shards/01_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/01_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/01_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/01_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/01_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/01_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/01_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/01_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/01_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/01_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/01_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/01_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/01_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/01_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/01_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/02_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/02_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/02_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/02_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/02_github.chunks.npy",
+            "seq2chunk": "chunk_shards/02_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/02_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/02_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/02_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/02_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/02_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/02_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/02_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/02_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/02_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/02_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/02_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/02_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/02_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/02_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/03_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/03_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/03_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/03_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/03_github.chunks.npy",
+            "seq2chunk": "chunk_shards/03_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/03_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/03_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/03_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/03_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/03_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/03_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/03_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/03_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/03_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/03_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/03_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/03_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/03_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/03_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/04_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/04_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/04_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/04_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/04_github.chunks.npy",
+            "seq2chunk": "chunk_shards/04_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/04_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/04_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/04_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/04_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/04_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/04_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/04_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/04_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/04_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/04_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/04_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/04_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/04_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/04_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/05_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/05_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/05_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/05_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/05_github.chunks.npy",
+            "seq2chunk": "chunk_shards/05_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/05_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/05_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/05_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/05_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/05_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/05_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/05_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/05_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/05_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/05_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/05_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/05_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/05_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/05_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/06_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/06_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/06_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/06_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/06_github.chunks.npy",
+            "seq2chunk": "chunk_shards/06_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/06_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/06_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/06_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/06_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/06_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/06_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/06_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/06_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/06_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/06_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/06_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/06_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/06_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/06_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/07_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/07_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/07_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/07_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/07_github.chunks.npy",
+            "seq2chunk": "chunk_shards/07_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/07_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/07_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/07_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/07_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/07_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/07_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/07_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/07_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/07_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/07_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/07_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/07_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/07_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/07_realnews.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/08_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/08_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/08_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/08_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/08_github.chunks.npy",
+            "seq2chunk": "chunk_shards/08_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/08_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/08_github.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/08_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/08_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/08_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/08_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/08_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/08_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/08_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/08_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/08_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/08_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/08_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/08_realnews.neighbours.npy"
+        }
+    ],
+    "neighbours": {
+        "faiss_index": "retriever_sentence_transformer/train.index",
+        "index_spec": "retriever_sentence_transformer/train.index.spec.json"
+    }
+}

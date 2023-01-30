@@ -11,7 +11,7 @@ then
 fi
 
 # Docker image name for this project
-DOCKER_IMAGE_NAME="${DOCKER_IMAGE_NAME:-tobias/default}"
+DOCKER_IMAGE_NAME="${DOCKER_IMAGE_NAME:-tobias/retro-analysis}"
 
 # Path to where in the docker container the project root will be mounted
 export DOCKER_WORKSPACE_PATH="${DOCKER_WORKSPACE_PATH:-/workspace}"
@@ -19,9 +19,6 @@ export DOCKER_WORKSPACE_PATH="${DOCKER_WORKSPACE_PATH:-/workspace}"
 # Docker user id and group id
 export DOCKER_UID=`id -u`
 export DOCKER_GID=`id -g`
-
-# Path to where in the docker container the project root will be mounted
-export DOCKER_WORKSPACE_PATH="${DOCKER_WORKSPACE_PATH:-/workspace}"
 
 while [[ $# -gt 0 ]]
 do
@@ -32,18 +29,10 @@ case $key in
     RUNTIME_ARGS="--gpus all"
     shift # past argument
     ;;
-    --notebook)
-    JUPYTER_PORT="-p 8888:8888"
-    shift # past argument
-    ;;
     -v|--mount)
     MOUNT="-v $2"
     shift # past argument
     shift # past value
-    ;;
-    --tensorboard)
-    TENSORBOARD_PORT="-p 6006:6006"
-    shift # past argument
     ;;
     -d|--detach)
     DETACH="--detach"
@@ -80,6 +69,7 @@ docker run --rm -it \
   -v $PROJECT_ROOT:$DOCKER_WORKSPACE_PATH \
   -v $HOME_VOLUME_NAME:/home/docker-user \
   --ipc host \
+  --network host \
   $DATA_MOUNT \
   $SSH_AGENT_FORWARD \
   $MOUNT \

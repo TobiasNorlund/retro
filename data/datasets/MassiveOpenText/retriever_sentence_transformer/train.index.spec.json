@@ -1,0 +1,902 @@
+[
+    {
+        "chunks": "../chunk_shards/00_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/00_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/00_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/00_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/00_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/00_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/00_github.chunk2seq.npy",
+        "embeddings": "../embeddings/00_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/00_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/00_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/00_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/00_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/00_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/00_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/00_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/00_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/01_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/01_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/01_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/01_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/01_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/01_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/01_github.chunk2seq.npy",
+        "embeddings": "../embeddings/01_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/01_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/01_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/01_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/01_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/01_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/01_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/01_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/01_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/02_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/02_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/02_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/02_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/02_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/02_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/02_github.chunk2seq.npy",
+        "embeddings": "../embeddings/02_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/02_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/02_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/02_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/02_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/02_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/02_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/02_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/02_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/03_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/03_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/03_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/03_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/03_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/03_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/03_github.chunk2seq.npy",
+        "embeddings": "../embeddings/03_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/03_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/03_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/03_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/03_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/03_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/03_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/03_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/03_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/04_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/04_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/04_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/04_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/04_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/04_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/04_github.chunk2seq.npy",
+        "embeddings": "../embeddings/04_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/04_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/04_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/04_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/04_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/04_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/04_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/04_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/04_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/05_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/05_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/05_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/05_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/05_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/05_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/05_github.chunk2seq.npy",
+        "embeddings": "../embeddings/05_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/05_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/05_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/05_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/05_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/05_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/05_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/05_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/05_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/06_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/06_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/06_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/06_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/06_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/06_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/06_github.chunk2seq.npy",
+        "embeddings": "../embeddings/06_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/06_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/06_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/06_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/06_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/06_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/06_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/06_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/06_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/07_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/07_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/07_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/07_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/07_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/07_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/07_github.chunk2seq.npy",
+        "embeddings": "../embeddings/07_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/07_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/07_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/07_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/07_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/07_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/07_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/07_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/07_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/08_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/08_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/08_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/08_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/08_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/08_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/08_github.chunk2seq.npy",
+        "embeddings": "../embeddings/08_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/08_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/08_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/08_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/08_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/08_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/08_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/08_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/08_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/09_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/09_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/09_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/09_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/09_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/09_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/09_github.chunk2seq.npy",
+        "embeddings": "../embeddings/09_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/09_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/09_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/09_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/09_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/09_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/09_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/09_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/09_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/10_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/10_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/10_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/10_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/10_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/10_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/10_github.chunk2seq.npy",
+        "embeddings": "../embeddings/10_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/10_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/10_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/10_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/10_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/10_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/10_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/10_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/10_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/11_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/11_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/11_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/11_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/11_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/11_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/11_github.chunk2seq.npy",
+        "embeddings": "../embeddings/11_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/11_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/11_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/11_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/11_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/11_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/11_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/11_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/11_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/12_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/12_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/12_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/12_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/12_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/12_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/12_github.chunk2seq.npy",
+        "embeddings": "../embeddings/12_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/12_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/12_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/12_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/12_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/12_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/12_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/12_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/12_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/13_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/13_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/13_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/13_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/13_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/13_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/13_github.chunk2seq.npy",
+        "embeddings": "../embeddings/13_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/13_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/13_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/13_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/13_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/13_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/13_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/13_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/13_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/14_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/14_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/14_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/14_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/14_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/14_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/14_github.chunk2seq.npy",
+        "embeddings": "../embeddings/14_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/14_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/14_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/14_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/14_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/14_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/14_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/14_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/14_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/15_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/15_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/15_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/15_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/15_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/15_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/15_github.chunk2seq.npy",
+        "embeddings": "../embeddings/15_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/15_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/15_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/15_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/15_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/15_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/15_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/15_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/15_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/16_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/16_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/16_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/16_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/16_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/16_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/16_github.chunk2seq.npy",
+        "embeddings": "../embeddings/16_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/16_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/16_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/16_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/16_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/16_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/16_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/16_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/16_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/17_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/17_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/17_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/17_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/17_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/17_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/17_github.chunk2seq.npy",
+        "embeddings": "../embeddings/17_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/17_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/17_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/17_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/17_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/17_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/17_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/17_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/17_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/18_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/18_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/18_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/18_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/18_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/18_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/18_github.chunk2seq.npy",
+        "embeddings": "../embeddings/18_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/18_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/18_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/18_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/18_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/18_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/18_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/18_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/18_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/19_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/19_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/19_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/19_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/19_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/19_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/19_github.chunk2seq.npy",
+        "embeddings": "../embeddings/19_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/19_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/19_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/19_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/19_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/19_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/19_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/19_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/19_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/20_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/20_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/20_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/20_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/20_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/20_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/20_github.chunk2seq.npy",
+        "embeddings": "../embeddings/20_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/20_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/20_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/20_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/20_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/20_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/20_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/20_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/20_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/21_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/21_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/21_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/21_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/21_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/21_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/21_github.chunk2seq.npy",
+        "embeddings": "../embeddings/21_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/21_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/21_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/21_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/21_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/21_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/21_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/21_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/21_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/22_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/22_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/22_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/22_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/22_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/22_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/22_github.chunk2seq.npy",
+        "embeddings": "../embeddings/22_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/22_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/22_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/22_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/22_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/22_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/22_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/22_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/22_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/23_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/23_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/23_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/23_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/23_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/23_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/23_github.chunk2seq.npy",
+        "embeddings": "../embeddings/23_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/23_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/23_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/23_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/23_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/23_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/23_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/23_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/23_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/24_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/24_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/24_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/24_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/24_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/24_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/24_github.chunk2seq.npy",
+        "embeddings": "../embeddings/24_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/24_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/24_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/24_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/24_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/24_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/24_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/24_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/24_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/25_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/25_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/25_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/25_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/25_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/25_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/25_github.chunk2seq.npy",
+        "embeddings": "../embeddings/25_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/25_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/25_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/25_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/25_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/25_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/25_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/25_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/25_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/26_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/26_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/26_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/26_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/26_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/26_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/26_github.chunk2seq.npy",
+        "embeddings": "../embeddings/26_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/26_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/26_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/26_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/26_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/26_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/26_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/26_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/26_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/27_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/27_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/27_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/27_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/27_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/27_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/27_github.chunk2seq.npy",
+        "embeddings": "../embeddings/27_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/27_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/27_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/27_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/27_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/27_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/27_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/27_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/27_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/28_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/28_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/28_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/28_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/28_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/28_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/28_github.chunk2seq.npy",
+        "embeddings": "../embeddings/28_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/28_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/28_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/28_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/28_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/28_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/28_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/28_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/28_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/29_wikipedia_en.chunks.npy",
+        "seq2chunk": "../chunk_shards/29_wikipedia_en.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/29_wikipedia_en.chunk2seq.npy",
+        "embeddings": "../embeddings/29_wikipedia_en.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/29_github.chunks.npy",
+        "seq2chunk": "../chunk_shards/29_github.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/29_github.chunk2seq.npy",
+        "embeddings": "../embeddings/29_github.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/29_pile_cc.chunks.npy",
+        "seq2chunk": "../chunk_shards/29_pile_cc.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/29_pile_cc.chunk2seq.npy",
+        "embeddings": "../embeddings/29_pile_cc.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/29_books3.chunks.npy",
+        "seq2chunk": "../chunk_shards/29_books3.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/29_books3.chunk2seq.npy",
+        "embeddings": "../embeddings/29_books3.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/00_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/00_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/00_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/00_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/01_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/01_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/01_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/01_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/02_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/02_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/02_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/02_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/03_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/03_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/03_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/03_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/04_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/04_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/04_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/04_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/05_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/05_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/05_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/05_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/06_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/06_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/06_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/06_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/07_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/07_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/07_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/07_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/08_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/08_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/08_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/08_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/09_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/09_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/09_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/09_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/10_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/10_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/10_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/10_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/11_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/11_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/11_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/11_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/12_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/12_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/12_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/12_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/13_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/13_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/13_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/13_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/14_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/14_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/14_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/14_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/15_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/15_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/15_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/15_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/16_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/16_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/16_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/16_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/17_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/17_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/17_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/17_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/18_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/18_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/18_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/18_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/19_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/19_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/19_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/19_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/20_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/20_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/20_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/20_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/21_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/21_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/21_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/21_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/22_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/22_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/22_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/22_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/23_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/23_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/23_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/23_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/24_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/24_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/24_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/24_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/25_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/25_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/25_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/25_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/26_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/26_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/26_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/26_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/27_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/27_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/27_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/27_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/28_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/28_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/28_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/28_realnews.embeddings.npy"
+    },
+    {
+        "chunks": "../chunk_shards/29_realnews.chunks.npy",
+        "seq2chunk": "../chunk_shards/29_realnews.seq2chunk.npy",
+        "chunk2seq": "../chunk_shards/29_realnews.chunk2seq.npy",
+        "embeddings": "../embeddings/29_realnews.embeddings.npy"
+    }
+]

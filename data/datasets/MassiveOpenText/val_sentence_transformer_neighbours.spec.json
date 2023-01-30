@@ -1,0 +1,38 @@
+{
+    "shards": [
+        {
+            "chunks": "chunk_shards/val_github.chunks.npy",
+            "seq2chunk": "chunk_shards/val_github.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/val_github.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/val_github.neighbours.npy"
+        },
+        {
+	    "chunks": "chunk_shards/val_pile_cc.chunks.npy",
+            "seq2chunk": "chunk_shards/val_pile_cc.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/val_pile_cc.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/val_pile_cc.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/val_books3.chunks.npy",
+            "seq2chunk": "chunk_shards/val_books3.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/val_books3.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/val_books3.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/val_wikipedia_en.chunks.npy",
+            "seq2chunk": "chunk_shards/val_wikipedia_en.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/val_wikipedia_en.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/val_wikipedia_en.neighbours.npy"
+        },
+        {
+            "chunks": "chunk_shards/val_realnews.chunks.npy",
+            "seq2chunk": "chunk_shards/val_realnews.seq2chunk.npy",
+            "chunk2seq": "chunk_shards/val_realnews.chunk2seq.npy",
+            "neighbours": "retriever_sentence_transformer/neighbours/val_realnews.neighbours.npy"
+        }
+    ],
+    "neighbours": {
+        "faiss_index": "retriever_sentence_transformer/val.index",
+        "index_spec": "retriever_sentence_transformer/val.index.spec.json"
+    }
+}
