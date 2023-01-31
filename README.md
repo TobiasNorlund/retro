@@ -65,7 +65,7 @@ $ python train_retro.py \
 	--num-neighbours 2 \
 	--num-continuation-chunks 1 \
 	--max-len 1024 \
-	--retro-config ./retro.json \
+	--retro-config ../data/model/retro.json \
 	--batch-size 2 \
 	--accumulate-grad-batches 4 \
 	--gpus-per-node 4 \
