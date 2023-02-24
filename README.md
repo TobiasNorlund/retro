@@ -1,6 +1,6 @@
 # On the Generalization Ability of Retrieval-Enhanced Transformers
 
-This is the official repo to the paper [On the Generalization Ability of Retrieval-Enhanced Transformers](http://example.com).
+This is the official repo to the paper [On the Generalization Ability of Retrieval-Enhanced Transformers](https://arxiv.org/abs/2302.12128).
 We release our [RETRO](https://www.deepmind.com/publications/improving-language-models-by-retrieving-from-trillions-of-tokens) implementation along with our trained model.
 Due to the large size, we can unfortunately not host the data + retrieval index, but provide the code for reproducing from the raw [Pile](https://pile.eleuther.ai/) and [RealNews](https://github.com/rowanz/grover/tree/master/realnews).
 
@@ -28,7 +28,7 @@ Open this folder in VS Code and click "Reopen in container" and VS Code will do 
 
 ## Model download
 
-Download the [retro.zip](http://example.com) and extract it in `data/model` folder.
+Download the [retro.zip](https://chalmersuniversity.box.com/s/d7qijjdyfv6ubdy1ux10syrq4ep3ca6e) and extract it in `data/model` folder.
 
 
 ## Usage
@@ -85,5 +85,15 @@ $ pytest
 ## Citation
 
 ```
-TODO: Bibtex goes here...
+@misc{https://doi.org/10.48550/arxiv.2302.12128,
+  doi = {10.48550/ARXIV.2302.12128},
+  url = {https://arxiv.org/abs/2302.12128},
+  author = {Norlund, Tobias and Doostmohammadi, Ehsan and Johansson, Richard and Kuhlmann, Marco},
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {On the Generalization Ability of Retrieval-Enhanced Transformers},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
 ```
