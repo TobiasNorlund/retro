@@ -85,15 +85,19 @@ $ pytest
 ## Citation
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2302.12128,
-  doi = {10.48550/ARXIV.2302.12128},
-  url = {https://arxiv.org/abs/2302.12128},
-  author = {Norlund, Tobias and Doostmohammadi, Ehsan and Johansson, Richard and Kuhlmann, Marco},
-  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {On the Generalization Ability of Retrieval-Enhanced Transformers},
-  publisher = {arXiv},
-  year = {2023},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{norlund-etal-2023-generalization,
+    title = "On the Generalization Ability of Retrieval-Enhanced Transformers",
+    author = "Norlund, Tobias  and
+      Doostmohammadi, Ehsan  and
+      Johansson, Richard  and
+      Kuhlmann, Marco",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2023",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-eacl.109",
+    doi = "10.18653/v1/2023.findings-eacl.109",
+    pages = "1485--1493",
 }
-
 ```
