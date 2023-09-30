@@ -28,7 +28,11 @@ Open this folder in VS Code and click "Reopen in container" and VS Code will do 
 
 ## Model download
 
-Download the [retro.zip](https://chalmersuniversity.box.com/s/d7qijjdyfv6ubdy1ux10syrq4ep3ca6e) and extract it in `data/model` folder.
+Download the [retro.zip](https://chalmersuniversity.box.com/s/d7qijjdyfv6ubdy1ux10syrq4ep3ca6e) and extract it into some folder xxx. It will have structure xxx/data/model. To make this model available inside Docker, set environment variable `DATA_DIR`:
+
+```
+export DATA_DIR=/xxx/data
+```
 
 
 ## Usage
