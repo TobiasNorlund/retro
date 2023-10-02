@@ -70,7 +70,7 @@ Depending on the amount of chunks you can probably optimize the exact index, but
 $ cd /workspace/src/data
 $ python train_faiss_index.py \
 	--spec /workspace/data/datasets/MyDataset/index.spec.json \
-	--max-training-vectors $$((131072 * 256)) \
+	--max-training-vectors $((131072 * 256)) \
 	--index-type IVF131072,PQ32 \
 	--output /workspace/data/datasets/MyDataset/IVF131072,PQ32.index \
 	--use-gpus  # Optional, but makes it much faster
