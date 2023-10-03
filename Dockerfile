@@ -22,7 +22,8 @@ RUN pip install transformers==4.21.0 \
                 pytest==7.2.1 \
                 sentence-transformers==2.2.2 \
                 faiss-gpu==1.7.2 \
-                matplotlib==3.6.3 \ 
+                matplotlib==3.6.3 \
+		torchmetrics==0.11.4 \
                 seaborn==0.12.2
 
 USER $DOCKER_UID:$DOCKER_GID
