@@ -1,3 +1,3 @@
 # Pre-trained RETRO model
 
-Download the [retro.zip](https://chalmersuniversity.box.com/s/d7qijjdyfv6ubdy1ux10syrq4ep3ca6e) and extract it in this folder.
+Download the [model.zip](https://drive.google.com/file/d/1R53kuW_6uWDCXamQy2AghgeseaIPsAcB/view?usp=sharing) and extract it in this folder.
